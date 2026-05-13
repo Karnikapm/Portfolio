@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Port<span>folio.</span></h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Hire Me</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Karnika</span><br>Software Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user image">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>
+                        I am a passionate Software Developer and Full Stack Developer with experience in building scalable web applications and real-time systems using React, Node.js, Firebase, JavaScript, Java, and C. I enjoy creating responsive user interfaces, solving real-world problems, and developing innovative software solutions.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Java, C, JavaScript</li>
+                            <li><span>Web & Frameworks</span><br>React, Full Stack Development</li>
+                            <li><span>Core CS</span><br>Data Structures, Computer Networks</li>
+                            <li><span>Design</span><br>UI/UX Design, Figma</li>
+                            <li><span>Tools & Platforms</span><br>GitHub, Firebase, Web Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development Intern – Ampyo Technology</span><br>Developed data-driven web applications with backend integration and structured data handling.</li>
+                            <li><span>Full Stack Development Intern – Nxtlogic</span><br>Worked on full-stack development, database handling, and application optimization.</li>
+                            <li><span>Industry Training on AI – CTS</span><br>Completed AI industry training program in September 2023.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech – Information Technology</span><br>SNS College of Technology | CGPA: 8.7 (2021 – 2025)</li>
+                            <li><span>HSC</span><br>SRSI Matriculation Higher Secondary School | 88% (2020 – 2021)</li>
+                            <li><span>SSLC</span><br>SRSI Matriculation Higher Secondary School | 85% (2018 – 2019)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+            
+                    <h2>Full Stack Web Development</h2>
+            
+                    <p>
+                        Develop responsive and scalable full-stack web applications using
+                        React, Node.js, Firebase, and modern web technologies.
+                    </p>
+            
+                    <ul>
+                        <li>Responsive Website Design</li>
+                        <li>Frontend & Backend Integration</li>
+                        <li>Authentication Systems</li>
+                        <li>Database Management</li>
+                    </ul>
+            
+                </div>
+            
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+            
+                    <h2>Frontend & UI/UX Design</h2>
+            
+                    <p>
+                        Create modern and user-friendly interfaces with clean UI/UX design
+                        principles using React, HTML, CSS, and Figma.
+                    </p>
+            
+                    <ul>
+                        <li>Modern UI Design</li>
+                        <li>Mobile Responsive Layouts</li>
+                        <li>Interactive User Experience</li>
+                        <li>Figma Wireframing</li>
+                    </ul>
+            
+                </div>
+            
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                
+                    <h2>Data Analysis & Visualization</h2>
+                
+                    <p>
+                        Analyze and interpret data to generate meaningful insights using
+                        modern tools and visualization techniques for better decision-making.
+                    </p>
+                
+                    <ul>
+                        <li>Data Cleaning & Processing</li>
+                        <li>Dashboard & Report Creation</li>
+                        <li>Data Visualization</li>
+                        <li>Insight Generation & Analytics</li>
+                    </ul>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/work-1.png" alt="work image">
+            
+                    <div class="layer">
+                        <h2>Student Communication Platform</h2>
+                        <br>
+                        <p>
+                            Developed a full-stack communication platform designed for students
+                            to interact and collaborate in real time using React, Node.js,
+                            and Firebase. Implemented secure authentication, instant messaging,
+                            group communication, and responsive UI design for seamless user experience.
+                        </p>
+            
+                    </div>
+                </div>
+            
+            
+                <div class="work">
+                    <img src="images/work-2.png" alt="work image">
+            
+                    <div class="layer">
+                        <h2>IoT Bike Safety Kit</h2>
+                        <br>
+                        <p>
+                            Built an IoT-based bike safety monitoring system using sensors and C#
+                            to improve rider safety through real-time tracking and alert mechanisms.
+                            The system monitors live sensor data and provides smart safety notifications
+                            for accident prevention and better vehicle monitoring.
+                        </p>
+            
+                    </div>
+                </div>
+            
+            
+                <div class="work">
+                    <img src="images/work-3.png" alt="work image">
+            
+                    <div class="layer">
+                        <h2>Event Management Prediction System</h2>
+                        <br>
+                        <p>
+                            Developed a React and Firebase-based web application for event
+                            management, tracking, and prediction analysis. Designed a responsive
+                            dashboard interface with real-time data updates and analytics features
+                            to improve event planning and management efficiency.
+                        </p>
+            
+                    </div>
+                </div>
+            
+            </div>
+            <a href="https://github.com/Karnikapm?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <div class="contact-me">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <a class="button-two" href="https://www.linkedin.com/in/karnikapm/">Hire Me</a>
+        
+    </div>
+
+</body>
+</html>
